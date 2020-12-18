@@ -6,7 +6,7 @@ void Poit2D :: Set(double Xo,double Yo)
 }
 void  Poit2D ::Move(double dX,double dY){
     X += dX;
-    Y += dY
+    Y += dY;
 }
 void  Poit2D ::scale (double sX,double sY){
     x*=sX; Y *=sY;

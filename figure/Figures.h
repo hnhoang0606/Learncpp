@@ -1,5 +1,5 @@
-#ifndef _FIGURES_H 
-#define _FIGURES_H 
+#ifndef _FIGURE_H 
+#define _FIGURE_H 
 
 class Point2D 
 {   
@@ -7,7 +7,7 @@ class Point2D
         public:
              void Set(double Xo,double Yo);
              void Move(double dX,double dY);
-             void scale (double sX,double sY)
+             void scale (double sX,double sY);
 
 };
 class circle
@@ -16,7 +16,7 @@ class circle
     double Radius;
     public:
         void Set(double Xo,double Yo, double r);
-        void Move(double dX,double dY,);
+        void Move(double dX,double dY);
         double Area();
         double Perimeter ();
 };
